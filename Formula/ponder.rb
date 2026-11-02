@@ -1,9 +1,9 @@
 class Ponder < Formula
   desc "Coverage-gated multi-pass review and deliberation engine for coding agents"
   homepage "https://github.com/Quinnod345/ponder"
-  url "https://github.com/Quinnod345/ponder/archive/bc9af33df61a24766369f438cb90ff6044356586.tar.gz"
-  version "1.0.2"
-  sha256 "f04f8f490569bb2a4b1678a7fb91fd0555fa8d9a13562a2d909294b0d75b6939"
+  url "https://github.com/Quinnod345/ponder/archive/refs/tags/v1.1.0.tar.gz"
+  version "1.1.0"
+  sha256 "f10ad414655f61d7c3b90ff5f64ac3e00fab9e4c2ca24f180fab55d23132b07d"
   license "MIT"
   head "https://github.com/Quinnod345/ponder.git", branch: "main"
 
@@ -15,6 +15,6 @@ class Ponder < Formula
   end
 
   test do
-    assert_match "1.0.0", shell_output("#{bin}/ponder version")
+    assert_match "1.1.0", shell_output("#{bin}/ponder version")
   end
 end
