@@ -2,7 +2,7 @@ class Ponder < Formula
   desc "Coverage-gated multi-pass review and deliberation engine for coding agents"
   homepage "https://github.com/Quinnod345/ponder"
   url "https://github.com/Quinnod345/ponder/archive/refs/tags/v1.1.1.tar.gz"
-  version "1.1.0"
+  version "1.1.1"
   sha256 "ebd9f5996106d1af31e85c82094ae1d3260629e4dd63bb16784ae49dd5fd06a5"
   license "MIT"
   head "https://github.com/Quinnod345/ponder.git", branch: "main"
